@@ -1,5 +1,5 @@
-<h1 align="center">Olá 👋, Me chamo Erika Dias</h1>
-<h3 align="center">A passionate frontend developer from India</h3>
+<h1 align="left">Bootcamp Reprograma</h1>
+<h3 align="left">Projeto </h3>
 
 
 <h3 align="left">Languages and Tools:</h3>
