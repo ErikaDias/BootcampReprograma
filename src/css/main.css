@@ -1,0 +1,100 @@
+/* Aqui definimos o tamanho da section e o seu display */
+.info {
+  max-width: 1170px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+/* Aqui definimos o tamanho da fontes e paragrafos*/
+.titulo-artigo {
+  margin-top: 35px;
+  font-size: 44px;
+  color: var(--purple);
+}
+.titulo-secundario {
+  margin-top: 40px;
+  font-size: 30px;
+  color: var(--purple);
+}
+.paragrafos {
+  margin-top: 5px;
+  font-size: 24px;
+  line-height: 1.5;
+  width: 370px;
+}
+
+/*Retirar a margem do imagem*/
+img {
+  display: block;
+}
+
+/*Aqui definimos o background da section do formulario*/
+.formulario {
+  background: var(--purple);
+  padding: 25px;
+}
+
+/*Aqui definimos cor e tamanha do titulo do formulario*/
+.titulo-form {
+  font-size: 26px;
+  color: var(--branco);
+  text-align: center;
+  margin-bottom: 25px;
+}
+/*Aqui definimos um tamanho de fonte na alerta sobre a obrigatoriedade do campo nome e e-mail*/
+.obrigatorio {
+  font-size: 12px;
+}
+
+/*Aqui definimos uma reposividade utilizando as mesma classes somente alterando os Valores*/
+@media screen and (max-width: 768px) {
+  .titulo-artigo {
+    font-size: 30px;
+  }
+  .titulo-secundario {
+    font-size: 22px;
+  }
+  .titulo-form {
+    font-size: 20px;
+  }
+  .info {
+    display: block;
+    padding: 0 20px;
+    margin: 0 auto;
+  }
+  .paragrafos {
+    font-size: 14px;
+  }
+  .info img {
+    margin-top: 20px;
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+/*Aqui definimos uma reposividade utilizando as mesma classes somente alterando os Valores*/
+@media only screen and (max-width: 1024px) {
+  .titulo-artigo {
+    font-size: 32px;
+  }
+  .titulo-secundario {
+    font-size: 26px;
+  }
+  .titulo-form {
+    font-size: 20px;
+  }
+  .info {
+    display: center;
+    padding: 0 20px;
+    margin: 0 auto;
+  }
+  .paragrafos {
+    font-size: 16px;
+  }
+  .info img {
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
