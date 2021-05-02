@@ -1,6 +1,6 @@
 <h1 align="left">Bootcamp Reprograma</h1>
 
-<h3 align="left">Esse projeto foi desenvolvido na semana do <strong>Bootcamp Reprograma do Paraná Banco<strong> para a vaga de estágio como Dev Front-End.</h3>
+<h4 align="left">Esse projeto foi desenvolvido na semana do **Bootcamp Reprograma do Paraná Banco** para a vaga de estágio como Dev Front-End.</h4>
 
 
 <h3 align="left">Languagens utilizadas:</h3>
