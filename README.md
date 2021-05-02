@@ -1,4 +1,4 @@
-<h1 align="left">Bootcamp Reprograma</h1>
+<h1 align="left">Bootcamp Reprograma :computer: </h1>
 
 Esse projeto foi desenvolvido na semana do **Bootcamp Reprograma do Paraná Banco** para a vaga de estágio como Dev Front-End.
 
